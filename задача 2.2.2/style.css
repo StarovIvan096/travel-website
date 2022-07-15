@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+}
+.dot{
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+.dot:last-child{
+    margin-right: 0;
+}
+.dot p{
+    margin-top: 0;
+}
+.pointer{
+    display: inline-block;
+}
